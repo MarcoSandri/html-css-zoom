@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Stile barra superiore */
+
+header {
+    background-color: black;
+    position: sticky;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+}
+
+.box {
+    background-color: #4a4a4a;
+    color:white;
+    border-radius: 5px;
+    margin: 0 5px;
+    padding: 0.3em;
+}
+
+
+/* Stile riquadro con fotocamere */
